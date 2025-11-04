@@ -1,0 +1,183 @@
+# Translation of Plugins - Contact Form 7 + Telegram - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Contact Form 7 + Telegram - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-04-25 05:39:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Contact Form 7 + Telegram - Stable (latest release)\n"
+
+#: lib/Bot.php:68
+msgctxt "Empty token field"
+msgid "empty"
+msgstr "пусто"
+
+#: inc/migrations/v1.0.php:44 react/build/static/js/main.8259c0fb.js:2
+#: react/build/static/js/main.8259c0fb.js:5633
+msgid "Channel Name"
+msgstr "Название канала"
+
+#: classes/wpcf7telegram.php:177
+msgid "Got the token? Just drop it into the %s constant in wp-config.php."
+msgstr "Уже есть токен? Сохраните его в PHP константу %s в wp-config.php."
+
+#: classes/wpcf7telegram.php:174
+msgid "You might need a personal GitHub token to access pre-releases — especially if your server has hit GitHub’s free rate limit. <br>You'll see an error when checking for updates if that's the case (this can happen even if you didn’t cause it). <br>Getting a token is free and takes just a minute to create."
+msgstr "Вам может понадобиться персональный токен GitHub для раннего доступа к предварительным версиям — особенно если ваш сервер достиг лимита бесплатного доступа GitHub. <br>В этом случае вы увидите ошибку при проверке обновлений (это может произойти даже если вы не виноваты). <br>Получение токена бесплатно и занимает всего минуту."
+
+#: classes/wpcf7telegram.php:135
+msgid "You might run into terrible bugs. If that doesn’t scare you off, I’d love to hear your %sfeedback on GitHub%s!"
+msgstr "Вы можете столкнуться с ужасными багами. Если это вас не пугает, я бы с удовольствием принял ваши %sзамечания на GitHub%s!"
+
+#: classes/wpcf7telegram.php:133
+msgid "Install pre-releases (unstable, but exciting!)"
+msgstr "Получать бета-версии (нестабильно, зато весело!)"
+
+#: classes/wpcf7telegram.php:640
+msgid "Get it now!"
+msgstr "Не упустите!"
+
+#: classes/wpcf7telegram.php:638
+msgid "File sending extension"
+msgstr "Расширение File sending"
+
+#. translators: 1. File sending extension link, 2. end sale date, 3. "Get it
+#. now!" link
+#: classes/wpcf7telegram.php:637
+msgid "We have a %1$s available that is 75%% OFF until %2$s: %3$s"
+msgstr "Для модуля %1$s действует скидка 75%% до %2$s: %3$s"
+
+#: classes/wpcf7telegram.php:630
+msgid "Extensions"
+msgstr "Расширения"
+
+#: classes/wpcf7telegram.php:635
+msgid "Uses addon:"
+msgstr "Используемые расширения:"
+
+#: classes/wpcf7telegram.php:46
+msgid "File Sending"
+msgstr "File Sending"
+
+#: classes/wpcf7telegram.php:603
+msgid "Delete"
+msgstr "Удалить"
+
+#: classes/wpcf7telegram.php:602 react/build/static/js/main.8259c0fb.js:2
+#: react/build/static/js/main.8259c0fb.js:5041
+msgid "Pause"
+msgstr "Приостановить"
+
+#: classes/wpcf7telegram.php:601
+msgid "Approve"
+msgstr "Одобрить"
+
+#: classes/wpcf7telegram.php:491
+msgid "Subscribed for Contact Form 7 notifications from"
+msgstr "Добавлен в рассылку уведомлений с форм сайта"
+
+#. translators: "cf7tg_start" command
+#: classes/wpcf7telegram.php:397
+msgid "Add group: add your bot to the group and send the <code>%s</code> comand to your group"
+msgstr "Добавить группу: добавьте бота в группу и отправьте команду <code>%s</code> в группе"
+
+#. translators: "cf7tg_start" command
+#: classes/wpcf7telegram.php:395
+msgid "Add user: send the <code>%s</code> comand to your bot"
+msgstr "Добавить пользователя: отправьте команду <code>%s</code> вашему боту"
+
+#: classes/wpcf7telegram.php:393
+msgid "List is empty"
+msgstr "Список пуст."
+
+#: classes/wpcf7telegram.php:388
+msgid "Subscribers list"
+msgstr "Список подписчиков"
+
+#: classes/wpcf7telegram.php:380 classes/wpcf7telegram.php:382
+msgid "unknown"
+msgstr "неизвестен"
+
+#: classes/wpcf7telegram.php:380 classes/wpcf7telegram.php:382
+msgid "Bot is broken"
+msgstr "Бот не работает"
+
+#: classes/wpcf7telegram.php:379
+msgid "Bot is online"
+msgstr "Бот онлайн"
+
+#: classes/wpcf7telegram.php:374
+msgid "Bot username"
+msgstr "Ник бота"
+
+#: classes/wpcf7telegram.php:363
+msgid "An error has occured. See php error log."
+msgstr "Произошла ошибка. Смотрите журнал ошибок PHP."
+
+#: classes/wpcf7telegram.php:127
+msgid "or define by WPFC7TG_BOT_TOKEN constant"
+msgstr "или задайте константу WPFC7TG_BOT_TOKEN"
+
+#: classes/wpcf7telegram.php:127
+msgid "Defined by WPFC7TG_BOT_TOKEN constant"
+msgstr "Токен задан константой WPFC7TG_BOT_TOKEN"
+
+#: classes/wpcf7telegram.php:102
+msgid "Request refused"
+msgstr "Запрос отклонён"
+
+#: classes/wpcf7telegram.php:101
+msgid "Successfully approved"
+msgstr "Успешно одобрено"
+
+#: classes/wpcf7telegram.php:100
+msgid "Do you really want to pause?"
+msgstr "Приостановить?"
+
+#: classes/wpcf7telegram.php:99
+msgid "Do you really want to refuse?"
+msgstr "Вы действительно желаете отклонить?"
+
+#: classes/wpcf7telegram.php:98
+msgid "Do you really want to approve?"
+msgstr "Одобрить?"
+
+#: classes/wpcf7telegram.php:41
+msgid "Prevent duplicate object creation"
+msgstr "Предотвращение создания дубликата объекта"
+
+#: classes/wpcf7telegram.php:204
+msgid "Just use the shortcode <code>[telegram]</code> in the form for activate notification through Telegram."
+msgstr "Для включения уведомлений в Telegram-чат используйте шорткод <code>[telegram]</code> в ваших формах плагина Contact Form 7"
+
+#: classes/wpcf7telegram.php:194 react/build/static/js/main.8259c0fb.js:2
+#: react/build/static/js/main.8259c0fb.js:5749
+msgid "Telegram notificator settings"
+msgstr "Настройки уведомлений в Telegram"
+
+#: classes/wpcf7telegram.php:118
+msgid "Bot Token<br/><small>You need to create your own Telegram-Bot.<br/><a target=\"_blanc\" href=\"https://core.telegram.org/bots#3-how-do-i-create-a-bot\">How to create</a></small>"
+msgstr "Токен бота<br/><small>Вам нужно создать свой Telegram-бот.<br/><a target=\"_blanc\" href=\"https://core.telegram.org/bots#3-how-do-i-create-a-bot\">Как это сделать (англ)</a></small>"
+
+#: classes/wpcf7telegram.php:111
+msgid "Bot-settings"
+msgstr "Настройки бота"
+
+#. Author of the plugin
+#: cf7-telegram.php
+msgid "Hokku"
+msgstr "Игорь Тронь"
+
+#. Description of the plugin
+#: cf7-telegram.php
+msgid "Sends messages to Telegram-chat"
+msgstr "Отправляет сообщения в Telegram-чат"
+
+#. Plugin Name of the plugin
+#: cf7-telegram.php
+msgid "Contact Form 7 + Telegram"
+msgstr "Contact Form 7 + Telegram"
